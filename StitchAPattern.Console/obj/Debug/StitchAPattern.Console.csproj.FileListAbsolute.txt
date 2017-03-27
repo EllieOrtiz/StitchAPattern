@@ -1,0 +1,8 @@
+C:\Users\Elizabeth\documents\visual studio 2015\Projects\StitchAPattern\StitchAPattern.Console\bin\Debug\StitchAPattern.Console.exe.config
+C:\Users\Elizabeth\documents\visual studio 2015\Projects\StitchAPattern\StitchAPattern.Console\bin\Debug\StitchAPattern.Console.exe
+C:\Users\Elizabeth\documents\visual studio 2015\Projects\StitchAPattern\StitchAPattern.Console\bin\Debug\StitchAPattern.Console.pdb
+C:\Users\Elizabeth\documents\visual studio 2015\Projects\StitchAPattern\StitchAPattern.Console\obj\Debug\StitchAPattern.Console.csprojResolveAssemblyReference.cache
+C:\Users\Elizabeth\documents\visual studio 2015\Projects\StitchAPattern\StitchAPattern.Console\obj\Debug\StitchAPattern.Console.exe
+C:\Users\Elizabeth\documents\visual studio 2015\Projects\StitchAPattern\StitchAPattern.Console\obj\Debug\StitchAPattern.Console.pdb
+C:\Users\Elizabeth\documents\visual studio 2015\Projects\StitchAPattern\StitchAPattern.Console\bin\Debug\StitchAPattern.StitchingModels.dll
+C:\Users\Elizabeth\documents\visual studio 2015\Projects\StitchAPattern\StitchAPattern.Console\bin\Debug\StitchAPattern.StitchingModels.pdb

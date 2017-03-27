@@ -1,0 +1,48 @@
+﻿html {
+    background-color: lightskyblue;
+    margin: 0;
+    padding: 200px;
+}
+
+.navbar-inverse {
+    background-color: #3b3d3d;
+    border: none;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    background-color: lightslategrey;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    color: #808080;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: underline;
+}
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
