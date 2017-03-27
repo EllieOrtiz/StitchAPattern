@@ -1,6 +1,6 @@
 ﻿namespace StitchAPattern.StitchingModels
 {
-    public class PoopPattern : BaseStitch
+    public class PoopPattern : Pattern
     {
         public override string CreatePattern()
         {           

@@ -1,4 +1,5 @@
-﻿using StitchAPattern.StitchingModels;
+﻿using StitchAPattern.Models;
+using StitchAPattern.StitchingModels;
 using System;
 using System.Linq;
 using System.Web.Mvc;
@@ -11,9 +12,9 @@ namespace StitchAPattern.Controllers
 
         public ActionResult Index()
         {
-            var model = _db.BaseStitches.ToList();
+            var model = _db.Patterns.ToList();
 
-           return View(model);
+            return View(model);
         }
 
         public ActionResult About()
@@ -32,15 +33,19 @@ namespace StitchAPattern.Controllers
             return View();
         }
 
+        public ActionResult PatternLibrary()
+        {
+            return View();
+        }
+
         protected override void Dispose(bool disposing)
         {
+            if (_db != null)
             {
-                if(_db != null)
-                {
-                    _db.Dispose();
-                }
-                base.Dispose(disposing);
+                _db.Dispose();
             }
+            base.Dispose(disposing);
         }
+
     }
 }

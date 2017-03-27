@@ -2,7 +2,7 @@
 
 namespace StitchAPattern.StitchingModels
 {
-    public class LinePattern : BaseStitch
+    public class LinePattern : Pattern
     {
         public override string CreatePattern()
         {

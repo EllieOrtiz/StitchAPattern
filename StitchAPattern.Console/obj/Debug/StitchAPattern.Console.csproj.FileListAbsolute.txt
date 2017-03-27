@@ -6,3 +6,11 @@ C:\Users\Elizabeth\documents\visual studio 2015\Projects\StitchAPattern\StitchAP
 C:\Users\Elizabeth\documents\visual studio 2015\Projects\StitchAPattern\StitchAPattern.Console\obj\Debug\StitchAPattern.Console.pdb
 C:\Users\Elizabeth\documents\visual studio 2015\Projects\StitchAPattern\StitchAPattern.Console\bin\Debug\StitchAPattern.StitchingModels.dll
 C:\Users\Elizabeth\documents\visual studio 2015\Projects\StitchAPattern\StitchAPattern.Console\bin\Debug\StitchAPattern.StitchingModels.pdb
+C:\Users\Elizabeth\Documents\GitHub\StitchAPattern\StitchAPattern.Console\bin\Debug\StitchAPattern.Console.exe.config
+C:\Users\Elizabeth\Documents\GitHub\StitchAPattern\StitchAPattern.Console\bin\Debug\StitchAPattern.Console.exe
+C:\Users\Elizabeth\Documents\GitHub\StitchAPattern\StitchAPattern.Console\bin\Debug\StitchAPattern.Console.pdb
+C:\Users\Elizabeth\Documents\GitHub\StitchAPattern\StitchAPattern.Console\bin\Debug\StitchAPattern.StitchingModels.dll
+C:\Users\Elizabeth\Documents\GitHub\StitchAPattern\StitchAPattern.Console\bin\Debug\StitchAPattern.StitchingModels.pdb
+C:\Users\Elizabeth\Documents\GitHub\StitchAPattern\StitchAPattern.Console\obj\Debug\StitchAPattern.Console.csprojResolveAssemblyReference.cache
+C:\Users\Elizabeth\Documents\GitHub\StitchAPattern\StitchAPattern.Console\obj\Debug\StitchAPattern.Console.exe
+C:\Users\Elizabeth\Documents\GitHub\StitchAPattern\StitchAPattern.Console\obj\Debug\StitchAPattern.Console.pdb

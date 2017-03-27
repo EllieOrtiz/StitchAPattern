@@ -1,17 +1,14 @@
 ﻿using StitchAPattern.StitchingModels;
+using System;
+using System.Collections.Generic;
 using System.Data.Entity;
+using System.Linq;
+using System.Web;
 
-namespace StitchAPattern.StitchingModels
+namespace StitchAPattern.Models
 {
     public class StitchAPatternDb : DbContext
     {
-        public StitchAPatternDb() : base("name=DefaultConnection")
-        {
-
-        }
-
-        public DbSet<BaseStitch> BaseStitches { get; set; }
-
-        
+        public DbSet<Pattern> Patterns { get; set; }
     }
 }

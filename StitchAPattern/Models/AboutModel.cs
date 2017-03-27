@@ -1,4 +1,4 @@
-﻿namespace StitchAPattern.StitchingModels
+﻿namespace StitchAPattern.Models
 {
     public class AboutModel
     {

@@ -4,7 +4,7 @@ using System.Threading;
 
 namespace StitchAPattern.StitchingModels
 {
-    public class SquareStitch : BaseStitch
+    public class SquareStitch : Pattern
     {
         public override string CreatePattern()
         {
