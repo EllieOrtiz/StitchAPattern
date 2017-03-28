@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Text;
 using System.Threading;
+using System.Collections.Generic;
+
+
 
 namespace StitchAPattern.StitchingModels
 {

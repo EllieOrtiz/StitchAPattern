@@ -10,11 +10,20 @@ namespace StitchAPattern.Controllers
     {
         StitchAPatternDb _db = new StitchAPatternDb();
 
-        public ActionResult Index()
+        public ActionResult Index(string searchTerm = null)
         {
-            var model = _db.Patterns.ToList();
+            var model =
+                _db.Patterns
+                .Where(s => searchTerm == null || s.Name.StartsWith(searchTerm))
+                .Take(3)
+                .Select(s => new SquareStitch
+                {
+                    Name = s.Name,
+                    Body = s.Body,
+                    
+                });
 
-            return View(model);
+          return View(model);
         }
 
         public ActionResult About()
@@ -35,7 +44,12 @@ namespace StitchAPattern.Controllers
 
         public ActionResult PatternLibrary()
         {
-            return View();
+            var model =
+                from s in _db.Patterns
+                orderby s.Name ascending
+                select s;
+
+            return View(model);
         }
 
         protected override void Dispose(bool disposing)

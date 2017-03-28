@@ -9,6 +9,13 @@ namespace StitchAPattern.Models
 {
     public class StitchAPatternDb : DbContext
     {
+        public StitchAPatternDb() : base("name=DefaultConnection")
+        {
+
+        }
+
         public DbSet<Pattern> Patterns { get; set; }
+
+        public System.Data.Entity.DbSet<StitchAPattern.StitchingModels.SquareStitch> SquareStitches { get; set; }
     }
 }

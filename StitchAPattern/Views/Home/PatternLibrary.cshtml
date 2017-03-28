@@ -1,6 +1,17 @@
-﻿
+﻿@model IEnumerable<StitchAPattern.StitchingModels.SquareStitch>
 
 @{
     ViewBag.Title = "Home Page";
 }
 
+<h2>Patterns</h2>
+
+@foreach (var item in Model)
+{
+    <div>
+        <h4>@item.Name</h4>
+        <h4>@item.Body</h4>
+        <p>@item.CreatePattern()</p>
+        <hr />
+    </div>
+}

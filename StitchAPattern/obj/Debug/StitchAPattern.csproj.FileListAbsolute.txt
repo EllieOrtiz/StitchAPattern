@@ -166,3 +166,5 @@ C:\Users\Elizabeth\Documents\GitHub\StitchAPattern\StitchAPattern\bin\Microsoft.
 C:\Users\Elizabeth\Documents\GitHub\StitchAPattern\StitchAPattern\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Elizabeth\Documents\GitHub\StitchAPattern\StitchAPattern\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Elizabeth\Documents\GitHub\StitchAPattern\StitchAPattern\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Elizabeth\Documents\GitHub\StitchAPattern\StitchAPattern\obj\Debug\StitchAPattern.Migrations.InitialCreate.resources
+C:\Users\Elizabeth\Documents\GitHub\StitchAPattern\StitchAPattern\obj\Debug\StitchAPattern.csproj.GenerateResource.Cache

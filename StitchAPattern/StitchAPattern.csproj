@@ -198,9 +198,15 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SquareStitchesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703281335327_InitialCreate.cs" />
+    <Compile Include="Migrations\201703281335327_InitialCreate.Designer.cs">
+      <DependentUpon>201703281335327_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AboutModel.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -268,6 +274,11 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\PatternLibrary.cshtml" />
+    <Content Include="Views\SquareStitches\Create.cshtml" />
+    <Content Include="Views\SquareStitches\Delete.cshtml" />
+    <Content Include="Views\SquareStitches\Details.cshtml" />
+    <Content Include="Views\SquareStitches\Edit.cshtml" />
+    <Content Include="Views\SquareStitches\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -285,6 +296,11 @@
       <Project>{1d18930b-613d-4742-a632-ebef812c6394}</Project>
       <Name>StitchAPattern.StitchingModels</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201703281335327_InitialCreate.resx">
+      <DependentUpon>201703281335327_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
