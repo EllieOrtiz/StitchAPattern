@@ -274,11 +274,6 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\PatternLibrary.cshtml" />
-    <Content Include="Views\SquareStitches\Create.cshtml" />
-    <Content Include="Views\SquareStitches\Delete.cshtml" />
-    <Content Include="Views\SquareStitches\Details.cshtml" />
-    <Content Include="Views\SquareStitches\Edit.cshtml" />
-    <Content Include="Views\SquareStitches\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

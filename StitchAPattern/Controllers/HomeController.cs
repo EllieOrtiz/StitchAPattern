@@ -26,6 +26,11 @@ namespace StitchAPattern.Controllers
           return View(model);
         }
 
+        public ActionResult PatternGenerator()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             var model = new AboutModel();

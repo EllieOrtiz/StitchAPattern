@@ -38,6 +38,7 @@ namespace StitchAPattern.StitchingModels
             }
 
             return sb.ToString();
+ 
         }
 
     }
