@@ -21,7 +21,7 @@ namespace StitchAPattern.Migrations
                 {
                     Name = "Plum City",
                     Body = "Doodle beads, seed beads and sequins.",
-                    
+                   
                 });
         }
     }

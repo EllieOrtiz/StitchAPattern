@@ -14,6 +14,7 @@ namespace StitchAPattern.Controllers
         {
             var model =
                 _db.Patterns
+                .OrderByDescending(s => s.Name)
                 .Where(s => searchTerm == null || s.Name.StartsWith(searchTerm))
                 .Take(3)
                 .Select(s => new SquareStitch
@@ -49,12 +50,8 @@ namespace StitchAPattern.Controllers
 
         public ActionResult PatternLibrary()
         {
-            var model =
-                from s in _db.Patterns
-                orderby s.Name ascending
-                select s;
 
-            return View(model);
+            return View();
         }
 
         protected override void Dispose(bool disposing)

@@ -198,6 +198,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PatternGeneratorController.cs" />
     <Compile Include="Controllers\SquareStitchesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -364,6 +365,11 @@
     <Content Include="Views\SquareStitches\Details.cshtml" />
     <Content Include="Views\SquareStitches\Edit.cshtml" />
     <Content Include="Views\SquareStitches\Index.cshtml" />
+    <Content Include="Views\PatternGenerator\Create.cshtml" />
+    <Content Include="Views\PatternGenerator\Delete.cshtml" />
+    <Content Include="Views\PatternGenerator\Details.cshtml" />
+    <Content Include="Views\PatternGenerator\Edit.cshtml" />
+    <Content Include="Views\PatternGenerator\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
