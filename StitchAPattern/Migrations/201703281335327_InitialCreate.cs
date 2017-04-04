@@ -14,7 +14,7 @@ namespace StitchAPattern.Migrations
                         Id = c.Int(nullable: false, identity: true),
                         Name = c.String(),
                         Body = c.String(),
-                        Discriminator = c.String(nullable: false, maxLength: 128),
+                        Pattern = c.String(nullable: false, maxLength: 128),
                     })
                 .PrimaryKey(t => t.Id);
             

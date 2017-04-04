@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Text;
 using System.Threading;
-using System.Collections.Generic;
 
 
 
@@ -9,12 +8,13 @@ namespace StitchAPattern.StitchingModels
 {
     public class SquareStitch : Pattern
     {
+        
         public override string CreatePattern()
         {
             Thread.Sleep(1);
-            var randNum = new Random();
-            var randElem = randNum.Next(0, 1001);
-            var sb = new StringBuilder();
+            Random randNum = new Random();
+            int randElem = randNum.Next(0, 1001);
+            StringBuilder sb = new StringBuilder();
 
             //generates a random line
             for (int lines = 0; lines < 20; lines++)
@@ -24,7 +24,7 @@ namespace StitchAPattern.StitchingModels
                 {
                     randElem = randNum.Next(0, 1001);
 
-                    if (randElem % 2 == 0)
+                    if (randElem % 2 == 0 && randElem < 500)
                     {                      
                         sb.Append("--"); // Appending to StringBuilder.
                     }

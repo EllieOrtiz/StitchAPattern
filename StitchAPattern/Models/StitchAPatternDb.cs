@@ -16,6 +16,6 @@ namespace StitchAPattern.Models
 
         public DbSet<Pattern> Patterns { get; set; }
 
-        public System.Data.Entity.DbSet<StitchAPattern.StitchingModels.SquareStitch> SquareStitches { get; set; }
+        public DbSet<StitchAPattern.StitchingModels.SquareStitch> SquareStitches { get; set; }
     }
 }

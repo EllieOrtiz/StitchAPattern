@@ -4,7 +4,28 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+
+
+<form method="get">
+
+    <input type="search" name="SearchTerm" />
+    <input type="submit" value="Search By Name" />
+
+</form>
+
+    <h2>Patterns</h2>
+<div>
+    @foreach (var item in Model)
+    {
+        <div  class="col-md-3 carousel">
+            <h4>@item.Name</h4>
+            <h4>@item.Body</h4>
+            <p>@item.CreatePattern()</p>
+            <hr />
+        </div>
+    }
+</div>
+   
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -17,6 +38,7 @@
         <th>
             @Html.DisplayNameFor(model => model.Body)
         </th>
+       
         <th></th>
     </tr>
 

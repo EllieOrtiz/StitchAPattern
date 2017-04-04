@@ -14,7 +14,7 @@
 
 body {
     background-color: lightslategrey;
-    color: #fff;
+    color: #665656;
     font-size: 20px;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -45,4 +45,14 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.carousel {
+    background-color: #fff;
+    font-size: 15px;
+    
+    color: #665656;
+    margin: 15px;
+    height: 400px;
+
 }

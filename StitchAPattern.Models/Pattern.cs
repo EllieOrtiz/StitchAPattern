@@ -8,6 +8,7 @@ namespace StitchAPattern.StitchingModels
         public string Name { get; set; }
         public string Body { get; set; }
         
+        
        
         public abstract string CreatePattern();   
         
