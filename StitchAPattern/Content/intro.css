@@ -1,0 +1,19 @@
+﻿
+
+body {
+    margin: 0;
+}
+
+.fly-in-image {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+
+.fly-in-image li{
+    display:inline-block;
+    color: darkmagenta;
+    font-size: 4em;
+}

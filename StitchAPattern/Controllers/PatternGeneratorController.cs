@@ -1,4 +1,6 @@
-﻿using System;
+﻿using StitchAPattern.Models;
+using StitchAPattern.StitchingModels;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -6,8 +8,6 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using StitchAPattern.Models;
-using StitchAPattern.StitchingModels;
 
 namespace StitchAPattern.Controllers
 {
@@ -49,6 +49,8 @@ namespace StitchAPattern.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,Name,Body")] Pattern pattern)
         {
+            var p1 = (SquareStitch)pattern;            
+
             if (ModelState.IsValid)
             {
                 db.Patterns.Add(pattern);

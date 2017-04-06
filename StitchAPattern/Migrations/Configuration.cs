@@ -16,13 +16,16 @@ namespace StitchAPattern.Migrations
 
         protected override void Seed(StitchAPattern.Models.StitchAPatternDb context)
         {
-            context.Patterns.AddOrUpdate(s => s.Name,
-                new StitchingModels.SquareStitch
-                {
-                    Name = "Plum City",
-                    Body = "Doodle beads, seed beads and sequins.",
-                   
-                });
+            var p = new StitchingModels.SquareStitch
+            {
+                Name = "Plum City",
+                Description = "Doodle beads, seed beads and sequins.",
+
+            };
+
+            Console.WriteLine(p.MyPattern);
+          
+            context.Patterns.AddOrUpdate(s => s.Name, p);
         }
     }
 }

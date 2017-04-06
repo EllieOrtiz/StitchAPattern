@@ -8,7 +8,11 @@ namespace StitchAPattern.StitchingModels
 {
     public class SquareStitch : Pattern
     {
-        
+        public SquareStitch()
+        {
+            this.MyPattern = this.CreatePattern();
+        }
+
         public override string CreatePattern()
         {
             Thread.Sleep(1);

@@ -20,7 +20,7 @@ namespace StitchAPattern.Controllers
                 .Select(s => new SquareStitch
                 {
                     Name = s.Name,
-                    Body = s.Body,
+                    Description = s.Description,
                     
                 });
 

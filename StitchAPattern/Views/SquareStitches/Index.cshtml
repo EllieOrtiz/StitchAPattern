@@ -18,11 +18,11 @@
     @foreach (var item in Model)
     {
         <div  class="col-md-3 carousel">
-            @*<h4>@item.Name</h4>*@
-            <h4>@item.Body</h4>
+            <h4>@item.Name</h4>
+            <h4>@item.Description</h4>
 
             <div></div>
-            <p>@item.CreatePattern()</p>
+            <p>@item.MyPattern</p>
             <hr />
         </div>
     }
