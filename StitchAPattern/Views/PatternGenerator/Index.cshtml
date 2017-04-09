@@ -17,6 +17,10 @@
         <th>
             @Html.DisplayNameFor(model => model.Description)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MyPattern)
+        </th>
+
         <th></th>
     </tr>
 
@@ -29,7 +33,7 @@
             @Html.DisplayFor(modelItem => item.Description)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Id)
+            @Html.DisplayFor(modelItem => item.MyPattern)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |

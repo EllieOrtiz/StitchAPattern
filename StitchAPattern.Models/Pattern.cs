@@ -16,17 +16,4 @@ namespace StitchAPattern.StitchingModels
         
     }
 
-    public interface IPattern
-    {
-          int Id { get; set; }
-          string Name { get; set; }
-          string MyPattern { get; set; }
- 
-
-             string CreatePattern();
-
-  
-
-    }
-
 }

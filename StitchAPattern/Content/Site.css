@@ -1,22 +1,25 @@
 ﻿html {
     background-color: whitesmoke;
+    border: 100px;
     margin: 0;
-    padding: 200px;
+    padding: 100px;
 }
 
 .navbar-inverse {
-    background-color: #3b3d3d;
-    border: none;
-    padding: 30px;
+    background-color: transparent;
+    border-bottom: 7px solid powderblue;
     font-size: 20px;
     font-weight: bold;
+    margin-top: 25px;
+    
 }
 
 body {
-    background-color: lightslategrey;
+    
+    background-color: whitesmoke;
     color: #665656;
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 15px;
     padding-bottom: 20px;
     font-family: 'Segoe UI', Verdana, Arial, Helvetica, sans-serif;
 }
@@ -28,11 +31,19 @@ body {
 }
 
 a {
-    color: #f09c9c;;
+    color: #f09c9c;
     padding-left: 3px;
     padding-right: 3px;
     text-decoration: underline;
 }
+
+footer {
+    padding: 10px;
+    position: absolute;
+    top: 670px;
+    
+}
+
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
@@ -50,9 +61,76 @@ textarea {
 .carousel {
     background-color: #fff;
     font-size: 15px;
-    
     color: #665656;
     margin: 15px;
     height: 400px;
 
 }
+
+.move-image-intro {
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    from{ transform: translateX(-100px)}
+    to{transform: translateX(70px)}
+}
+
+#img1{
+    position: absolute;
+    top: -10px;
+    left: -40px;
+    width: 250px;
+  }
+
+#img2 {
+   position: absolute;
+   top: 130px;
+   left: 500px;
+   width: 300px;
+}
+
+#img3 {
+     position: absolute;
+     top: 85px;
+     left: 300px;
+    width: 150px;
+}
+
+#img4 {
+    position: absolute;
+    top: 280px;
+    left:160px;
+    width: 250px;
+}
+
+#img5 {
+    position: absolute;
+    top: 30px;
+    left: 800px;
+    width: 180px;
+}
+#img6 {
+     position: absolute;
+     top: -20px;
+     left: 550px;
+   width: 120px;
+}
+
+#img7 {
+        position: absolute;
+        top: 350px;
+        left: 800px;
+        width: 150px;
+    }
+
+#img8 {
+    position: absolute;
+    top: 280px;
+    left: -30px;
+    width: 130px;
+}
+
+

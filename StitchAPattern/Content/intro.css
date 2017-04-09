@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-.fly-in-image {
+.fly-in-text {
     list-style: none;
     position: absolute;
     left: 50%;
@@ -12,8 +12,19 @@ body {
     transform: translateX(-50%)translateY(-50%);
 }
 
-.fly-in-image li{
+.fly-in-text li{
     display:inline-block;
-    color: darkmagenta;
+    color: #f08cb7;
     font-size: 4em;
+    font-weight: 300;
+    opacity: 1;
+    transition: all 2.5s ease;
+}
+
+.fly-in-text li:last-child {
+    margin-right: 0;
+}
+
+.fly-in-text.hidden li {
+    opacity: 0;
 }
