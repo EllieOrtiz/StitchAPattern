@@ -42,6 +42,8 @@ namespace StitchAPattern.Controllers
             return View();
         }
 
+       
+
         // POST: PatternGenerator/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -55,7 +57,7 @@ namespace StitchAPattern.Controllers
             {
                 db.Patterns.Add(pattern);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                //return RedirectToAction("Index");
             }
 
             return View(pattern);

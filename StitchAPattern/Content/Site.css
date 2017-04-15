@@ -2,26 +2,46 @@
     background-color: whitesmoke;
     border: 100px;
     margin: 0;
-    padding: 100px;
+    padding: 120px;
 }
 
 .navbar-inverse {
-    background-color: transparent;
+    background-color: whitesmoke;
     border-bottom: 7px solid powderblue;
     font-size: 20px;
-    font-weight: bold;
-    margin-top: 25px;
-    
+    padding-top: 25px;
+   
+}
+
+.navbar-brand {
+    font-family: 'Throw My Hands Up in the Air';
+    color: #f09c9c !important;
+    font-size: 40px;
+    margin-left: -120px !important;
+    border-top-style: dashed;
+}
+
+.navbar-nav {
+    font-family: 'Lucida Sans';
+    padding-left: 100px;
+   
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+     color: powderblue;
+     border-left-style: solid;
+     border-left-color: #f09c9c;
+     border-right-style: solid;
+     border-right-color: #f09c9c;
 }
 
 body {
-    
     background-color: whitesmoke;
-    color: #665656;
+    color: #999999;
     font-size: 20px;
     padding-top: 15px;
     padding-bottom: 20px;
-    font-family: 'Segoe UI', Verdana, Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans';
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -34,14 +54,18 @@ a {
     color: #f09c9c;
     padding-left: 3px;
     padding-right: 3px;
-    text-decoration: underline;
+ 
 }
 
+h2 {
+    margin-top: 0;
+    font-family: 'Lucida Sans';
+}
+
+
 footer {
-    padding: 10px;
-    position: absolute;
-    top: 670px;
-    
+   position:fixed;
+    bottom:0; 
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -53,19 +77,95 @@ footer {
 
 /* Set width on the form input elements since they're 100% wide by default */
 input,
-select,
-textarea {
+select {
     max-width: 280px;
 }
 
-.carousel {
-    background-color: #fff;
-    font-size: 15px;
-    color: #665656;
-    margin: 15px;
-    height: 400px;
+#createbutton {
+    position: absolute;
+    left: -50px;
+    top: 80px;
+    background-color: transparent;
+    border: dashed;
+    border-color: powderblue;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    font-family: 'Throw My Hands Up in the Air';
+    font-weight: bolder;
+    font-size: 20px;
+    color: #f09c9c;
+    
+}
+
+
+
+.form-control {
+    position: absolute;
+    left: 200px;
+    width: 35%;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: solid;
+    border-bottom-color: powderblue;
+
 
 }
+
+textarea {
+    position: absolute;
+    border: solid 8px;
+    border-color: powderblue;
+    border-radius: 10px;
+    left: 330px;
+    height: 250px;
+    white-space: pre-wrap;
+    line-height: 16px;
+    font-size: x-large;
+}
+
+.control-label {
+    left: 80px;
+}
+
+
+.carousel {
+    border: solid 2px;
+    border-color: powderblue;
+    background-color: #fff;
+    color: #999999;
+    margin: 14px;
+    height: 480px;
+    width: 350px;
+}
+
+/*.overlay {
+    
+ position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: powderblue;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+ 
+}
+
+.carousel:hover .overlay {
+    height: 80%;
+    opacity: .5;
+}*/
+
+p {
+    margin: 0 0 15px;
+    white-space: pre-wrap;
+   line-height: 16px;
+   font-size: x-large;
+    }
 
 .move-image-intro {
     animation-name: move;
@@ -91,6 +191,8 @@ textarea {
    left: 500px;
    width: 300px;
 }
+
+
 
 #img3 {
      position: absolute;
